@@ -1,0 +1,40 @@
+@mixin text {
+    text-align: center;
+    h2 {
+        font-size: 30px;
+        color: #2D3033;
+    }
+        hr {
+            max-width: 12rem;
+            border: 4px solid #F38281;
+        }
+}
+.mixin_text {
+    @include text;
+}
+.about_us {
+    display: flex;
+    text-align: center;
+}
+.super_team {
+    display: flex;
+    justify-content: space-around;
+}
+.team:hover {
+    transform: translateX(-1rem) translateY(-1rem);
+    }
+.numb_string {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #95E1D3;
+}
+section {
+    width: 11rem;
+    text-align: center;
+    color: #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}

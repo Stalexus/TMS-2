@@ -1,0 +1,57 @@
+.background{
+    height: 60rem;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%), url(img/Rectangle.png);
+    .nav_bar {
+        max-width: 1170px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+    .nav_bar__logo{
+            margin-left: 2rem;
+            margin-right: 20rem;
+            font-size: 2rem;
+            color: #FFFFFF;
+    }    
+    .nav_bar__link, .nav_bar__icon {
+        cursor: pointer;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .nav_bar__link:hover {
+        color: #F4BF87;
+        border-bottom: 1px solid #F4BF87;
+    }
+    .center_text {
+        text-align: center;
+        align-items: center;
+    }
+    .center_text__hr {
+        margin-bottom: 2rem;
+        width: 12rem;
+        border: 4px solid #FFFFFF;
+    }
+    .center_text__but {
+        cursor: pointer;
+        padding: 1rem 5rem;
+        color: #FFFFFF;
+        background-color: transparent;
+        border: 4px solid #FFFFFF;
+    }
+    .nav__numb {
+        font-size: 36px;
+    }
+    .nav {
+        width: 9rem;
+        margin-top: 3rem;
+        margin-left: 7rem;
+        display: inline-block;
+        cursor: pointer;
+        border-top: 4px solid #FFFFFF;
+        color: #FFFFFF;
+        justify-content: space-around;
+        font-size: 18px;
+    }.nav__numb:hover {
+        border-top: 4px solid #F38281;
+    }
+}
