@@ -1,0 +1,15 @@
+.amazing_services {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.amazing_services>div {
+    position: relative;
+    width: 13rem;
+    color: #2D3033;
+}
+.icon {
+    position: absolute;
+    top: 1rem;
+    right: 13rem;
+}

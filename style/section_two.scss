@@ -23,7 +23,7 @@
 .team:hover {
     transform: translateX(-1rem) translateY(-1rem);
     }
-.numb_string {
+#numb_string {
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@
     justify-content: center;
     background-color: #95E1D3;
 }
-section {
+.numb_string {
     width: 11rem;
     text-align: center;
     color: #FFFFFF;

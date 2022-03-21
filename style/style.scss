@@ -2,11 +2,7 @@
 @import url(text.scss);
 @import url(section_one.scss);
 @import url(section_two.scss);
-@mixin text {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
+@import url(section_three.scss);
 body {
     margin: 0;
     max-width: 1510px;
