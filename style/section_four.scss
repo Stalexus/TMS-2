@@ -1,0 +1,39 @@
+.design {
+    height: 56rem;
+    background-image: url(../img/Rectangle9.png), url(../img/design_bg.png);
+    background-repeat: no-repeat;
+}
+.design_tablet_cont {
+    position: absolute;
+    left: 14rem;
+}
+.design_tablet_ram {
+    position: relative;
+    right: 2rem;
+}
+.design_mobile_ram {
+    position: relative;
+    bottom: 10rem;
+    left: 28rem;
+}
+.design_mobile_cont {
+    position: relative;
+    bottom: 11rem;
+    left: 40rem;
+}
+@media (max-width: 1024px) {
+    .design_tablet_cont {
+        position: absolute;
+        left: 9rem;
+    }
+    .design_mobile_cont {
+        position: relative;
+        bottom: 7.5rem;
+        left: 26.5rem;
+    }
+    .design_mobile_ram {
+        position: relative;
+        bottom: 7rem;
+        left: 18rem;
+    }
+}

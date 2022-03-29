@@ -3,7 +3,9 @@
 @import url(section_one.scss);
 @import url(section_two.scss);
 @import url(section_three.scss);
-body {
+@import url(section_four.scss);
+@import url(section_five.scss);
+body{
     margin: 0;
     max-width: 1510px;
 }

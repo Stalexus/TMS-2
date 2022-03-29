@@ -20,9 +20,52 @@
     display: flex;
     justify-content: space-around;
 }
-.team:hover {
-    transform: translateX(-1rem) translateY(-1rem);
+.super_team__one{
+    position: relative;
+    .active_one {
+        position: absolute;
+        top: 0;
+        z-index: -1;
     }
+}
+.super_team__two{
+    position: relative;
+    .active_two {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+}
+.super_team__three{
+    position: relative;
+    .active_three{
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+}
+.super_team__one:hover .active_one {
+    transform: translateX(-1rem) translateY(-1rem);
+    z-index: 1;
+}
+.super_team__two:hover .active_two {
+    transform: translateX(-1rem) translateY(-1rem);
+    z-index: 1;
+}
+.super_team__three:hover .active_three {
+    transform: translateX(-1rem) translateY(-1rem);
+    z-index: 1;
+}
+.people_img {
+    position: relative;
+    bottom: 17rem;
+    left: 10rem;
+}
+.text_img {
+    position: relative;
+    bottom: 10rem;
+    left: 5rem;
+}
 #numb_string {
     margin-top: 2rem;
     display: flex;

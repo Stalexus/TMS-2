@@ -1,0 +1,28 @@
+.service__about {
+    display: flex;
+    justify-content: space-around;
+}
+.service_info {
+    width: 35rem;
+}
+.arrow {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+.arrow:active {
+    transform: rotate(0.5turn);
+}
+.photography, .creativity, .web {
+    height: 6rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #C6CBCD;
+}
+.info_txt {
+    box-sizing: border-box;
+    border: 1px solid #C6CBCD;
+}
