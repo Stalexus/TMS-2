@@ -1,0 +1,21 @@
+.amazing_services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.amazing_services > div {
+  position: relative;
+  width: 13rem;
+  color: #2D3033;
+}
+
+.icon {
+  position: absolute;
+  top: 1rem;
+  right: 13rem;
+}
+/*# sourceMappingURL=section_three.css.map */

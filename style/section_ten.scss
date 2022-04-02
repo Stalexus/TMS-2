@@ -1,0 +1,13 @@
+.latest {
+    margin-top: 3rem;
+    height: 15rem;
+    background-image: url(../img/latest.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.latest_hr {
+    width: 10rem;
+    border: 4px solid #F38281;
+}

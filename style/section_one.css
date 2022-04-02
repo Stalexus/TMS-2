@@ -1,0 +1,77 @@
+.background {
+  height: 60rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(237, 215, 137, 0.9)), to(rgba(233, 130, 131, 0.9))), url(../img/Rectangle.png);
+  background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%), url(../img/Rectangle.png);
+}
+
+.background .nav_bar {
+  max-width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.background .nav_bar__logo {
+  margin-left: 2rem;
+  margin-right: 20rem;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.background .nav_bar__link, .background .nav_bar__icon {
+  cursor: pointer;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.background .nav_bar__link:hover {
+  color: #F4BF87;
+  border-bottom: 1px solid #F4BF87;
+}
+
+.background .center_text {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background .center_text__hr {
+  margin-bottom: 2rem;
+  width: 12rem;
+  border: 4px solid #FFFFFF;
+}
+
+.background .center_text__but {
+  cursor: pointer;
+  padding: 1rem 5rem;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 4px solid #FFFFFF;
+}
+
+.background .nav__numb {
+  font-size: 36px;
+}
+
+.background .nav {
+  width: 9rem;
+  margin-top: 3rem;
+  margin-left: 7rem;
+  display: inline-block;
+  cursor: pointer;
+  border-top: 4px solid #FFFFFF;
+  color: #FFFFFF;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 18px;
+}
+
+.background .nav__numb:hover {
+  border-top: 4px solid #F38281;
+}
+/*# sourceMappingURL=section_one.css.map */

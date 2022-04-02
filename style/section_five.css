@@ -1,0 +1,110 @@
+.service__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.service_info {
+  width: 35rem;
+}
+
+.arrow {
+  width: 2rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.photography, .creativity, .web {
+  height: 6rem;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #C6CBCD;
+}
+
+.info_txt {
+  margin-top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #C6CBCD;
+}
+
+.jon_doe {
+  height: 255px;
+  margin-left: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #F8F8F8;
+}
+
+.jon_doe > section {
+  position: relative;
+  margin-left: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jon_doe_h {
+  position: absolute;
+  top: 4rem;
+  left: 7rem;
+  font-family: 'Kaushan Script', sans-serif;
+}
+
+.jon_doe_p {
+  font-size: 24px;
+  color: #A9AFB1;
+}
+
+.jon_doe_hr {
+  width: 5rem;
+  margin-left: 0;
+  border: 3px solid #F38281;
+}
+
+.jon_doe_arrows_l {
+  width: 1.7rem;
+  height: 1rem;
+  border-top: 5px solid #C6CBCD;
+  border-right: 5px solid #C6CBCD;
+  margin-right: 60px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+
+.jon_doe_arrows_r {
+  width: 1.7rem;
+  height: 1rem;
+  border-top: 5px solid #C6CBCD;
+  border-right: 5px solid #C6CBCD;
+  margin-right: 60px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+/*# sourceMappingURL=section_five.css.map */

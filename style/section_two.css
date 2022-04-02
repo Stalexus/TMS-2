@@ -1,0 +1,116 @@
+.mixin_text {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.mixin_text h2 {
+  font-size: 30px;
+  color: #2D3033;
+}
+
+.mixin_text hr {
+  max-width: 12rem;
+  border: 4px solid #F38281;
+}
+
+.about_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.super_team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.super_team__one {
+  position: relative;
+}
+
+.super_team__one .active_one {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.super_team__two {
+  position: relative;
+}
+
+.super_team__two .active_two {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.super_team__three {
+  position: relative;
+}
+
+.super_team__three .active_three {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.super_team__one:hover .active_one {
+  -webkit-transform: translateX(-1rem) translateY(-1rem);
+          transform: translateX(-1rem) translateY(-1rem);
+  z-index: 1;
+}
+
+.super_team__two:hover .active_two {
+  -webkit-transform: translateX(-1rem) translateY(-1rem);
+          transform: translateX(-1rem) translateY(-1rem);
+  z-index: 1;
+}
+
+.super_team__three:hover .active_three {
+  -webkit-transform: translateX(-1rem) translateY(-1rem);
+          transform: translateX(-1rem) translateY(-1rem);
+  z-index: 1;
+}
+
+.people_img {
+  position: relative;
+  bottom: 17rem;
+  left: 10rem;
+}
+
+.text_img {
+  position: relative;
+  bottom: 10rem;
+  left: 5rem;
+}
+
+#numb_string {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #95E1D3;
+}
+
+.numb_string {
+  width: 11rem;
+  text-align: center;
+  color: #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+}
+/*# sourceMappingURL=section_two.css.map */

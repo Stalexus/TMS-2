@@ -1,0 +1,13 @@
+.happy_clients {
+    height: 50rem;
+    background-image: url(../img/bghappy.png);
+}
+.clients {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.clienst_photo {
+    max-width: 130px;
+    max-height: 130px;
+}

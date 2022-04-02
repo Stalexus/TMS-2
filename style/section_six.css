@@ -1,0 +1,77 @@
+.people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.social_contact {
+  position: absolute;
+  top: 12rem;
+  right: 6rem;
+}
+
+.people_one {
+  position: relative;
+}
+
+.people_one .people_one_act {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.people_two {
+  position: relative;
+}
+
+.people_two .people_two_act {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.people_three {
+  position: relative;
+}
+
+.people_three .people_three_act {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.people_one:hover .people_one_act {
+  -webkit-transform: translateX(-1rem) translateY(-1rem);
+          transform: translateX(-1rem) translateY(-1rem);
+  z-index: 1;
+}
+
+.people_two:hover .people_two_act {
+  -webkit-transform: translateX(-1rem) translateY(-1rem);
+          transform: translateX(-1rem) translateY(-1rem);
+  z-index: 1;
+}
+
+.people_three:hover .people_three_act {
+  -webkit-transform: translateX(-1rem) translateY(-1rem);
+          transform: translateX(-1rem) translateY(-1rem);
+  z-index: 1;
+}
+
+.mans_icons {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #F8F8F8;
+}
+
+.mans_icons > img {
+  max-height: 60px;
+}
+/*# sourceMappingURL=section_six.css.map */

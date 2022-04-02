@@ -6,12 +6,9 @@
     width: 35rem;
 }
 .arrow {
-    width: 42px;
-    height: 42px;
+    width: 2rem;
+    height: 1.5rem;
     cursor: pointer;
-}
-.arrow:active {
-    transform: rotate(0.5turn);
 }
 .photography, .creativity, .web {
     height: 6rem;
@@ -23,6 +20,54 @@
     border: 1px solid #C6CBCD;
 }
 .info_txt {
+    margin-top: 0;
     box-sizing: border-box;
     border: 1px solid #C6CBCD;
+}
+.jon_doe {
+    height: 255px;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+}
+.jon_doe> section {
+    position: relative;
+    margin-left: 3rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.jon_doe_h {
+    position: absolute;
+    top: 4rem;
+    left: 7rem;
+    font-family: 'Kaushan Script', sans-serif;
+}
+.jon_doe_p {
+    font-size: 24px;
+    color: #A9AFB1;
+}
+.jon_doe_hr {
+    width: 5rem;
+    margin-left: 0;
+    border: 3px solid #F38281;
+}
+.jon_doe_arrows_l {
+    width: 1.7rem;
+    height: 1rem;
+    border-top: 5px solid #C6CBCD;
+    border-right: 5px solid #C6CBCD;
+    margin-right: 60px;
+    transform: rotate(-135deg);
+}
+.jon_doe_arrows_r {
+    width: 1.7rem;
+    height: 1rem;
+    border-top: 5px solid #C6CBCD;
+    border-right: 5px solid #C6CBCD;
+    margin-right: 60px;
+    transform: rotate(45deg);
 }
