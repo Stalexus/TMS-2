@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,sBAAsB;EACxC,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,cAAc,EAAE,MAAM;CACzB;;AACD,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,iBAAiB;CAC5B",
+    "sources": [
+        "section_ten.scss"
+    ],
+    "names": [],
+    "file": "section_ten.css"
+}
